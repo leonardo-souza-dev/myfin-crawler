@@ -1,5 +1,9 @@
 import time
 import os
+import sys
+sys.path.insert(1, './tinydb')
+
+from tinydb import TinyDB, Query
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
